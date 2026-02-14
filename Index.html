@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reveal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1 class="title">Unlocking Soon</h1>
+    <p class="subtitle" id="status">Preview is blurred until the timer ends.</p>
+
+    <div class="card">
+      <div class="timer" id="timer">Loading…</div>
+
+      <div class="image-frame">
+        <img
+          id="revealImg"
+          src="reveal-blur.jpg"
+          alt="Timed reveal"
+          class="blurred"
+        />
+      </div>
+
+      <p class="fineprint" id="revealTimeText"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
