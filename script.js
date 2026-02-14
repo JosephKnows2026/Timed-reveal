@@ -1,5 +1,5 @@
 // Reveal time pinned to Montréal time (Eastern Standard Time, UTC-05:00)
-const REVEAL_AT = new Date(Date.now() + 10 * 60 * 1000).toISOString();
+const REVEAL_AT = "2026-02-14T00:00:00-05:00";
 
 const revealAtMs = new Date(REVEAL_AT).getTime();
 const img = document.getElementById("revealImg");
