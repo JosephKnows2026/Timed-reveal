@@ -18,7 +18,7 @@ function tick() {
   if (remaining <= 0) {
     timer.textContent = "Unlocked";
     status.textContent = "The image is now available.";
-    img.src = "reveal-clear.jpeg";
+    img.src = "Reveal-clear.jpeg";
     img.classList.remove("blurred");
     img.classList.add("revealed");
     return;
