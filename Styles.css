@@ -9,4 +9,4 @@ body { margin: 0; padding: 24px; background: #f6f7fb; color: #111; }
 img { display: block; width: 100%; height: auto; }
 .blurred { filter: blur(18px); transform: scale(1.03); }
 .revealed { filter: none; transform: none; transition: filter 400ms ease; }
-.fineprint { margin: 12px 0 0; color: #666; font-size: 14px; }
+.fineprint { margin: 12px 0 0; color: #666; font-size: 40px; }
